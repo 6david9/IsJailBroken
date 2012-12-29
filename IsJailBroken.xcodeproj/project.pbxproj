@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089AA97D168E955D00873870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089AA97C168E955D00873870 /* UIKit.framework */; };
+		089AA97F168E955D00873870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089AA97E168E955D00873870 /* Foundation.framework */; };
+		089AA981168E955D00873870 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089AA980168E955D00873870 /* CoreGraphics.framework */; };
+		089AA987168E955D00873870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089AA985168E955D00873870 /* InfoPlist.strings */; };
+		089AA989168E955D00873870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089AA988168E955D00873870 /* main.m */; };
+		089AA98D168E955D00873870 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 089AA98C168E955D00873870 /* CBAppDelegate.m */; };
+		089AA98F168E955D00873870 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 089AA98E168E955D00873870 /* Default.png */; };
+		089AA991168E955D00873870 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 089AA990168E955D00873870 /* Default@2x.png */; };
+		089AA993168E955D00873870 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 089AA992168E955D00873870 /* Default-568h@2x.png */; };
+		089AA996168E955D00873870 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089AA995168E955D00873870 /* CBViewController.m */; };
+		089AA999168E955D00873870 /* CBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089AA997168E955D00873870 /* CBViewController.xib */; };
+		089AA9A1168E95DF00873870 /* UIDevice+IsJailBroken.m in Sources */ = {isa = PBXBuildFile; fileRef = 089AA9A0168E95DF00873870 /* UIDevice+IsJailBroken.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089AA978168E955D00873870 /* IsJailBroken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsJailBroken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089AA97C168E955D00873870 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		089AA97E168E955D00873870 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		089AA980168E955D00873870 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		089AA984168E955D00873870 /* IsJailBroken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IsJailBroken-Info.plist"; sourceTree = "<group>"; };
+		089AA986168E955D00873870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089AA988168E955D00873870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		089AA98A168E955D00873870 /* IsJailBroken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IsJailBroken-Prefix.pch"; sourceTree = "<group>"; };
+		089AA98B168E955D00873870 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		089AA98C168E955D00873870 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		089AA98E168E955D00873870 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		089AA990168E955D00873870 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		089AA992168E955D00873870 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		089AA994168E955D00873870 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		089AA995168E955D00873870 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		089AA998168E955D00873870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController.xib; sourceTree = "<group>"; };
+		089AA99F168E95DF00873870 /* UIDevice+IsJailBroken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IsJailBroken.h"; sourceTree = "<group>"; };
+		089AA9A0168E95DF00873870 /* UIDevice+IsJailBroken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IsJailBroken.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089AA975168E955D00873870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089AA97D168E955D00873870 /* UIKit.framework in Frameworks */,
+				089AA97F168E955D00873870 /* Foundation.framework in Frameworks */,
+				089AA981168E955D00873870 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089AA96D168E955D00873870 = {
+			isa = PBXGroup;
+			children = (
+				089AA982168E955D00873870 /* IsJailBroken */,
+				089AA97B168E955D00873870 /* Frameworks */,
+				089AA979168E955D00873870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		089AA979168E955D00873870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089AA978168E955D00873870 /* IsJailBroken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089AA97B168E955D00873870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089AA97C168E955D00873870 /* UIKit.framework */,
+				089AA97E168E955D00873870 /* Foundation.framework */,
+				089AA980168E955D00873870 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089AA982168E955D00873870 /* IsJailBroken */ = {
+			isa = PBXGroup;
+			children = (
+				089AA98B168E955D00873870 /* CBAppDelegate.h */,
+				089AA98C168E955D00873870 /* CBAppDelegate.m */,
+				089AA994168E955D00873870 /* CBViewController.h */,
+				089AA9A2168E970900873870 /* Shared */,
+				089AA995168E955D00873870 /* CBViewController.m */,
+				089AA997168E955D00873870 /* CBViewController.xib */,
+				089AA983168E955D00873870 /* Supporting Files */,
+			);
+			path = IsJailBroken;
+			sourceTree = "<group>";
+		};
+		089AA983168E955D00873870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089AA984168E955D00873870 /* IsJailBroken-Info.plist */,
+				089AA985168E955D00873870 /* InfoPlist.strings */,
+				089AA988168E955D00873870 /* main.m */,
+				089AA98A168E955D00873870 /* IsJailBroken-Prefix.pch */,
+				089AA98E168E955D00873870 /* Default.png */,
+				089AA990168E955D00873870 /* Default@2x.png */,
+				089AA992168E955D00873870 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		089AA9A2168E970900873870 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				089AA99F168E95DF00873870 /* UIDevice+IsJailBroken.h */,
+				089AA9A0168E95DF00873870 /* UIDevice+IsJailBroken.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089AA977168E955D00873870 /* IsJailBroken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089AA99C168E955D00873870 /* Build configuration list for PBXNativeTarget "IsJailBroken" */;
+			buildPhases = (
+				089AA974168E955D00873870 /* Sources */,
+				089AA975168E955D00873870 /* Frameworks */,
+				089AA976168E955D00873870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsJailBroken;
+			productName = IsJailBroken;
+			productReference = 089AA978168E955D00873870 /* IsJailBroken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089AA96F168E955D00873870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lei Yan";
+			};
+			buildConfigurationList = 089AA972168E955D00873870 /* Build configuration list for PBXProject "IsJailBroken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089AA96D168E955D00873870;
+			productRefGroup = 089AA979168E955D00873870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089AA977168E955D00873870 /* IsJailBroken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089AA976168E955D00873870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089AA987168E955D00873870 /* InfoPlist.strings in Resources */,
+				089AA98F168E955D00873870 /* Default.png in Resources */,
+				089AA991168E955D00873870 /* Default@2x.png in Resources */,
+				089AA993168E955D00873870 /* Default-568h@2x.png in Resources */,
+				089AA999168E955D00873870 /* CBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089AA974168E955D00873870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089AA989168E955D00873870 /* main.m in Sources */,
+				089AA98D168E955D00873870 /* CBAppDelegate.m in Sources */,
+				089AA996168E955D00873870 /* CBViewController.m in Sources */,
+				089AA9A1168E95DF00873870 /* UIDevice+IsJailBroken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089AA985168E955D00873870 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089AA986168E955D00873870 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		089AA997168E955D00873870 /* CBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089AA998168E955D00873870 /* en */,
+			);
+			name = CBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089AA99A168E955D00873870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		089AA99B168E955D00873870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089AA99D168E955D00873870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IsJailBroken/IsJailBroken-Prefix.pch";
+				INFOPLIST_FILE = "IsJailBroken/IsJailBroken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		089AA99E168E955D00873870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IsJailBroken/IsJailBroken-Prefix.pch";
+				INFOPLIST_FILE = "IsJailBroken/IsJailBroken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089AA972168E955D00873870 /* Build configuration list for PBXProject "IsJailBroken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089AA99A168E955D00873870 /* Debug */,
+				089AA99B168E955D00873870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089AA99C168E955D00873870 /* Build configuration list for PBXNativeTarget "IsJailBroken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089AA99D168E955D00873870 /* Debug */,
+				089AA99E168E955D00873870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089AA96F168E955D00873870 /* Project object */;
+}
